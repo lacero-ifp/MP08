@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Calendari</title>
+        <style>
+
+
+            body {
+             background-color:aliceblue;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+             text-align:center; 
+            }
+
+            h1{
+                text-align: left;
+            }
+
+            table{
+                color: purple;
+                background-color: olive;
+                text-align:center;
+                width: 800px;
+                margin:auto
+            }
+
+            th{
+                color: white;
+                background-color: black; 
+            }
+
+            .mp07:hover{
+                background-color: red;
+            }
+
+            .mp07{
+                background-color: tomato;
+            }
+
+            .mp08:hover{
+                background-color: gray;
+            }
+
+
+            .mp08{
+                background-color: lightgray;
+            }
+
+            .mp09:hover{
+                background-color: darkred;
+            }
+
+            
+            .mp09{
+                background-color: crimson;
+            }
+
+            .tutoria:hover{
+                background-color: darkgoldenrod;
+            }
+
+            .tutoria{
+                background-color: goldenrod;
+            }
+
+            .pati:hover{
+                background-color: orange;
+            }
+
+            .pati{
+                background-color: lightcoral;
+            }
+
+            
+
+/*Com combinar etiquetes*/
+.mp07, .mp08, .mp09, .tutoria {
+    color:white;
+}
+
+        </style>
+    </head>
+     
+    <body>
+        <h1>HORARI</h1>
+        <table width="600px">
+           <tr>
+                <th></th>
+                <th>DILLUNS</th>
+                <th>DIMARTS</th>
+                <th>DIMECRES</th>
+                <th>DIJOUS</th>
+                <th>DIVENDRES</th>
+           </tr> 
+
+        <tr>
+            <td>15:30-16:00</td> 
+            <td rowspan="5" class="mp07">MP07</td>
+            <td></td>
+            <td></td>
+            <td rowspan="5" class="mp07">MP07</td>
+            <td></td>
+        </tr> 
+
+       <tr>
+        <td>16:00-16:30</td>
+        <td rowspan="2" class="mp09">MP09</td>
+        <td></td>
+        <td rowspan="4" class="mp08">MP08</td>
+   </tr>
+
+   <tr>
+        <td>16:30-17:00</td>
+        <td rowspan="3" class="mp08">MP08</td>
+    </tr> 
+
+    <tr>
+        <td>17:00-17:30</td>
+        <td rowspan="2" class="tutoria">TUTORIA</td>
+    </tr> 
+
+    <tr>
+        <td>17:30-18:00</td>
+    </tr> 
+
+    <tr>
+        <td>18:00-18:30</td>
+        <td colspan="5" class="pati">PATI</td>
+    </tr> 
+
+    <tr>
+        <td>18:30-19:00</td>
+        <td rowspan="4" class="mp09">MP09</td>
+        <td rowspan="4" class="mp09">MP09</td>
+        <td rowspan="5" class="mp08">MP08</td>
+        <td rowspan="4" class="mp08">MP08</td>
+        <td rowspan="4" class="mp08">MP08</td>
+    </tr> 
+
+    <tr>
+        <td>19:00-19:30</td>
+    </tr> 
+
+    <tr>
+        <td>19:30-20:00</td>
+    </tr> 
+
+    <tr>
+        <td>20:00-20:30</td>
+    </tr> 
+
+    <tr>
+        <td>20:30-21:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr> 
+        </table>
+    </body>
+</html>
