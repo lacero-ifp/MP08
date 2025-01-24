@@ -36,6 +36,15 @@ nav{
     background: black;
 }
 
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
 .pagina {
     position: relative;
     height: 100%;
@@ -53,11 +62,37 @@ nav{
 }
 
 /*---------------P1-----------------*/
-.p1 {
-    width: auto;
-    background-color: #456870;
 
-}
+  .fons {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #cbe3e9 50%, #56828C 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .fons2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .fons3 {
+    animation-duration:5s;
+  }
+
+
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
 
 
 .p1 h1 {
@@ -370,16 +405,4 @@ h2{
     height: 1200px;
 }
 
-.ImatgeContacte {
-    clear: both;
-    height: 300px;
-    width: 20vw;
-    background-position: 0px -95px;
-    background-size: 50%
-}
-
-.Informacio {
-    width: 100px;
-    height: 300px;
-    clear: both;
 }
