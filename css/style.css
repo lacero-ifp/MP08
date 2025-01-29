@@ -319,25 +319,9 @@ h2{
   /*---------------MEDIA SCREEN-----------------*/
 
 
-
-  @media screen and (max-width: 1500px) {
-    .treballs{
-        width: 100%;
-        padding-top: 120px;
-    }
-
-    .activitat {
-        max-width: 400px;
-        margin: 30px 30px;
-    }
-
-}
-
-
-
 @media screen and (max-width: 1080px) {
     .p1 h1 {
-        font-size: 90px;
+        font-size: 100px;
         width: 100%;
         top: 40%;
         left: 50%;
@@ -345,10 +329,11 @@ h2{
 
    .p1 h3 {
         font-size: 20px;
-        width: 100%;
-        top: 60%;
+        width: 650px;
+        top: 52%;
         left: 50%;
     }
+    
 
     nav {
         width: 540px;
@@ -359,8 +344,12 @@ h2{
     }
 
     ul li {
+        margin: 18px 10px;
         font-size: 20px;
-        margin: 12px 10px;
+    }
+
+    ul {
+        padding: 2px 0px 0px 20px;
     }
 }
 
@@ -374,25 +363,21 @@ h2{
     }
 
    .p1 h3 {
-        font-size: 20px;
-        width: 100%;
-        top: 60%;
+        font-size: 15px;
+        width: 420px;
+        top: 50%;
         left: 50%;
     }
 
-    nav {
-        width: 510px;
-        border-radius: 0px;
-        height: 60px;
-        padding: 10px 0px;
-        border-radius: 0 0 40px 0;
+    ul li {
+        margin: 18px 10px;
+        font-size: 20px;
     }
 
-    ul li {
-        font-size: 19px;
-        margin: 12px 10px;
+    ul {
+        padding: 2px 0px 0px 20px;
     }
-} 
+}
 
 
 @media screen and (max-width: 480px) {
@@ -404,13 +389,13 @@ h2{
         padding: 0px 0px;
     }
 
-    ul {
-        padding: 5px 0px 0px 40px;
+    ul li {
+        margin: 18px 10px;
+        font-size: 15px;
     }
 
-    ul li {
-        margin: 16px 10px;
-        font-size: 16px;
+    ul {
+        padding: 2px 0px 0px 40px;
     }
 
     .p1 h1 {
@@ -456,15 +441,4 @@ h2{
         margin: 0 auto;
     }
 
-    /*-----*/
-
-    .p3 {
-        width: auto;
-        height: 1200px;
-    }
-
-}
-
-@media screen and (max-width: 480px) {
-    
 }
