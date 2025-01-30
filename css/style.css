@@ -341,6 +341,57 @@ h2{
     }
   }
 
+@media screen and (max-width: 1100px) {
+    .ImatgeContacte{
+        width: 1400px;
+        height: 100vh;
+        float: left;
+        background-image: url(../img/Ordinador.jpg);
+        background-repeat: no-repeat;
+        z-index: -10;
+        background-size: 110%;
+    }
+    
+    .Informacio {
+        margin-top: 150px;
+        margin-left: -1200px;
+        width: 1200px;
+        height: 725px;
+        background-color: #56828C;
+        float: right;
+        border-radius: 40px 0px 0px 40px;
+    }
+    
+    .p3 h1{
+        font-size: 65px;
+        color: white;
+        padding-top: 85px;
+        padding-left: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .Icona {
+        width: 580px;
+        height: 90px;
+        padding-left: 100px;
+    }
+    
+    .p3 h3{
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .Icona svg{
+        height: 70px;
+        float: left;
+        padding-right: 20px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 1080px) {
     .p1 h1 {
         font-size: 100px;
@@ -476,14 +527,12 @@ h2{
     }
 
     .treballs {
-        width: auto;
+        width: 100%;
     }
 
     .p2 h1 {
         font-size: 48px;
     }
-
-
 
     .activitat {
         clear: both;
