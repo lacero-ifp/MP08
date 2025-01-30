@@ -3,9 +3,7 @@
     margin: 0px;
     text-decoration: none;
     overflow-x: hidde;
-
 }
-
 html, body{
     height: 100%;
     font-family: "Orbitron", sans-serif;
@@ -13,16 +11,13 @@ html, body{
     font-weight: 100;
     font-style: normal;
 }
-
 ul li{
     display: inline-block;
     margin: 20px;
     color: white;
     font-size: 26px;
     margin: 28px 24px;
-
 }
-
 nav{
     position: fixed;
     height: 90px;
@@ -34,25 +29,21 @@ nav{
     z-index: 5000;
     background: black;
 }
-
 @keyframes slide {
     0% {
-      transform:translateX(-25%);
-    }
+        transform:translateX(-25%);
+   }
     100% {
-      transform:translateX(25%);
-    }
-  }
-
+        transform:translateX(25%);
+   }
+}
 .pagina {
     position: relative;
     height: 100%;
     width: 100%;
 }
-
 /*---------------P1-----------------*/
-
-  .p1 .fons {
+.p1 .fons {
     animation:slide 3s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, #cbe3e9 50%, #56828C 50%);
     bottom:0;
@@ -62,28 +53,22 @@ nav{
     right:-50%;
     top:0;
     z-index:-1;
-  }
-  
-  .p1 .fons2 {
+}
+.p1 .fons2 {
     animation-direction:alternate-reverse;
     animation-duration:4s;
-  }
-  
-  .p1 .fons3 {
+}
+.p1 .fons3 {
     animation-duration:5s;
-  }
-
-
-  @keyframes slide {
+}
+@keyframes slide {
     0% {
-      transform:translateX(-25%);
-    }
+        transform:translateX(-25%);
+   }
     100% {
-      transform:translateX(25%);
-    }
-  }
-
-
+        transform:translateX(25%);
+   }
+}
 .p1 h1 {
     padding-top: 100px;
     text-align: center;
@@ -94,7 +79,6 @@ nav{
     font-size: 140px;
     color: #ffffff;
 }
-
 .p1 h3 {
     width: 1000px;
     padding-top: 100px;
@@ -106,10 +90,7 @@ nav{
     font-size: 25px;
     color: #ffffff;
 }
-
-
 /*---------------P2-----------------*/
-
 .p2 h1 {
     text-align: center;
     position: absolute;
@@ -120,27 +101,23 @@ nav{
     left: 50%;
     transform: translate(-50%);
 }
-
 .p2 {
     background: #56828c;
     background-size: 400% 400%;
-    height: 1600px; 
+    height: 1600px;
 }
-
 .treballs{
     height: 1300px;
     width: 1500px;
     margin: 0 auto;
     padding-top: 120px;
 }
-
 h2{
     text-align: center;
     line-height: 80px;
     font-size: 40px;
     color: white;
 }
-
 .activitat{
     display: block;
     width: 500px;
@@ -153,30 +130,22 @@ h2{
     font-size: 30px;
     margin: 30px 120px;
 }
-
 .activitat:hover{
     animation: 0.5s 0s rebotar linear 1;
     color: #3a555d;
 }
-
 @keyframes rebotar {
     0%{
         transform: translateY(0px);
-    }
-
+   }
     50%{
         transform: translateY(17px);
-    }
-
+   }
     100%{
         transform: translateY(0px);
-    }
+   }
 }
-
-
 /*----------*/
-
-
 .Imatge{
     background-repeat: no-repeat;
     -webkit-filter:grayscale(100%);
@@ -187,64 +156,52 @@ h2{
     float: left;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.607);
 }
-
 .Calendari {
     background-image: url(../img/Calendari.jpg);
     background-position: -40px -100px;
     background-size: 120%;
-
 }
-
 .Feedly{
     background-image: url(../img/Feedly.jpg);
     background-position: -10px -75px;
     background-size: 110%;
 }
-
 .Flotacions{
     background-image: url(../img/Flotacions.jpg);
     background-position: -10px -60px;
     background-size: 110%;
 }
-
 .Escacs{
     background-image: url(../img/Escacs.jpg);
     background-position: -10px -140px;
     background-size: 105%;
 }
-
 .Watchmen{
     background-image: url(../img/Watchmen.jpeg);
     background-position: -10px -50px;
     background-size: 105%;
 }
-
 .Ifpagram{
-    background-image: url(../img/Ifpagram.jpg); 
+    background-image: url(../img/Ifpagram.jpg);
     background-position: -10px -35px;
     background-size: 105%;
 }
-
 .Floreta{
     background-image: url(../img/Floreta.jpg);
     background-position: -10px -100px;
     background-size: 105%;
 }
-
 .Careta{
     background-image: url(../img/Careta.jpg);
     background-position: -10px -10px;
-    background-size: 105%; 
+    background-size: 105%;
 }
-
 /*---------------P3-----------------*/
-
 .p3 {
     background: white;
     background-size: 400% 400%;
     height: 100vh;
 }
-
 .ImatgeContacte{
     width: 1400px;
     height: 100vh;
@@ -254,7 +211,6 @@ h2{
     z-index: -10;
     background-size: 110%;
 }
-
 .Informacio {
     margin-top: 150px;
     margin-left: -1200px;
@@ -264,7 +220,6 @@ h2{
     float: right;
     border-radius: 40px 0px 0px 40px;
 }
-
 .p3 h1{
     font-size: 65px;
     color: white;
@@ -272,34 +227,28 @@ h2{
     padding-left: 100px;
     padding-bottom: 50px;
 }
-
 .Icona {
     width: 580px;
     height: 90px;
     padding-left: 100px;
 }
-
 .p3 h3{
     font-size: 30px;
     color: white;
     padding-top: 20px;
 }
-
 .Icona svg{
     height: 70px;
     float: left;
     padding-right: 20px;
 }
-
-
 .sensestil {
     background-color: transparent;
-   }
-   .sensestil:link {
+}
+.sensestil:link {
     background-color: transparent;
-   }
-
-  .tornar{
+}
+.tornar{
     width: 60px;
     height: 60px;
     background-color: black;
@@ -311,86 +260,68 @@ h2{
     position: fixed;
     left: 40px;
     bottom: 40px;
-  }
-
-
-
-
-  /*---------------MEDIA SCREEN-----------------*/
-
-
-  @media screen and (max-width: 1500px) {
-
+}
+/*---------------MEDIA SCREEN-----------------*/
+@media screen and (max-width: 1500px) {
     .p2 {
-        height: 2650px;
+        height: 2460px;
         width: 100%;
-    }
-
+   }
     .activitat {
         clear: both;
-        margin: 30px 120px;
-        transform: translate(-75%);
-    }
-
-    .treballs {
-        width: 100%;
-        height: 2650px;
-        clear: both;
-        padding-left: 50%;
-        margin: 0px;
-    }
-  }
-
-@media screen and (max-width: 1100px) {
-    .ImatgeContacte{
-        width: 1400px;
-        height: 100vh;
-        float: left;
-        background-image: url(../img/Ordinador.jpg);
-        background-repeat: no-repeat;
-        z-index: -10;
-        background-size: 110%;
-    }
-    
-    .Informacio {
-        margin-top: 150px;
-        margin-left: -1200px;
-        width: 1200px;
-        height: 725px;
-        background-color: #56828C;
-        float: right;
-        border-radius: 40px 0px 0px 40px;
-    }
-    
-    .p3 h1{
-        font-size: 65px;
-        color: white;
-        padding-top: 85px;
-        padding-left: 100px;
-        padding-bottom: 50px;
-    }
-    
-    .Icona {
-        width: 580px;
-        height: 90px;
-        padding-left: 100px;
-    }
-    
-    .p3 h3{
-        font-size: 30px;
-        color: white;
-        padding-top: 20px;
-    }
-    
-    .Icona svg{
-        height: 70px;
-        float: left;
-        padding-right: 20px;
-    }
-
+   }
 }
 
+@media screen and (max-width: 1165px) {
+    .p2 {
+        height: 3200px;
+    }
+    
+    .p3 {
+        height: 600px;
+        clear: both;
+    }
+    
+    .ImatgeContacte{
+        width: 100%;
+        height: 600px;
+        clear: both;
+        background-size: 100%;
+    }
 
+    .Informacio {
+        top: 100px;
+        width: 700px;
+        height: 450px;
+        background-color: #56828C;
+        clear: both;
+        margin: 0px;
+        border-radius: 40px 0px 0px 40px;
+   }
+    .p3 h1{
+        font-size: 35px;
+        color: white;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-bottom: 32px;
+   }
+    .Icona {
+        width: 490px;
+        height: 66px;
+        padding-left: 100px;
+   }
+    .p3 h3{
+        font-size: 24px;
+        color: white;
+        padding-top: 4px;
+   }
+    .Icona svg{
+        width: 50px;
+        height: 40px;
+        float: left;
+        padding-right: 20px;
+   }
+}
 
 @media screen and (max-width: 1080px) {
     .p1 h1 {
@@ -398,39 +329,29 @@ h2{
         width: 100%;
         top: 40%;
         left: 50%;
-    }
-
-   .p1 h3 {
+   }
+    .p1 h3 {
         font-size: 20px;
         width: 650px;
         top: 52%;
         left: 50%;
-    }
-    
-
+   }
     nav {
         width: 540px;
         border-radius: 0px;
         height: 60px;
         padding: 10px 0px;
         border-radius: 0 0 40px 0;
-    }
-
+   }
     ul li {
         margin: 18px 10px;
         font-size: 20px;
-    }
-
+   }
     ul {
         padding: 2px 0px 0px 20px;
-    }
+   }
 }
-
-
-
-
 @media screen and (max-width: 800px) {
-        
     .activitat{
         display: block;
         width: 400px;
@@ -442,8 +363,7 @@ h2{
         color: #ffffff;
         font-size: 20px;
         margin: 40px 120px;
-    }
-
+   }
     .Imatge{
         background-repeat: no-repeat;
         -webkit-filter:grayscale(100%);
@@ -453,91 +373,70 @@ h2{
         border-radius: 17px;
         float: left;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.607);
-    }
-
+   }
     .p1 h1 {
         font-size: 60px;
         width: 100%;
         top: 40%;
         left: 50%;
-    }
-
-   .p1 h3 {
+   }
+    .p1 h3 {
         font-size: 15px;
         width: 420px;
         top: 50%;
         left: 50%;
-    }
-
+   }
     ul li {
         margin: 18px 10px;
         font-size: 20px;
-    }
-
+   }
     ul {
         padding: 2px 0px 0px 20px;
-    }
-    
+   }
 }
-
-
 @media screen and (max-width: 480px) {
-
     nav {
         width: auto;
         height: 60px;
         border-radius: 0px;
         padding: 0px 0px;
-    }
-
+   }
     ul li {
         margin: 18px 10px;
-        font-size: 20px;
-    }
-
+        font-size: 17px;
+   }
     ul {
         padding: 2px 0px 0px 20px;
-    }
-
+   }
     .p1 h1 {
         font-size: 47px;
         text-align: center;
         top: 47%;
         color: white;
-    }
-
+   }
     .p1 {
         height: 800px;
         width: auto;
-    }
-
+   }
     .p1 h3 {
         width: 340px;
         font-size: 12px;
         padding-top: 0px;
         top: 61%;
-    }
-
-
-    /*-----*/
-
-
+   }
+   /*-----*/
     .p2 {
-        height: 2560px;
-    }
-
+        height: 1800px;
+   }
     .treballs {
         width: 100%;
-    }
-
+   }
     .p2 h1 {
         font-size: 48px;
-    }
-
+   }
     .activitat {
         clear: both;
         scale: 60%;
         margin: 0 auto;
-    }
-
+   }
 }
