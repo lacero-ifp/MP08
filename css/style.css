@@ -583,23 +583,25 @@ h2{
         font-size: 48px;
    }
 
-    .activitat {
-        clear: both;
-        scale: 60%;
-        margin-left: 50%;
-        transform: translate(-50%);
-   }
+   h2{
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+}
 
    .activitat{
+    clear: both;
+    transform: translate(-50%);
     display: block;
-    width: 400px;
-    height: 205px;
+    width: 250px;
+    height: 130px;
     border-radius: 20px;
     float: left;
     text-align: center;
     line-height: 225px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 10px;
     margin: 50px 0px;
     margin-left: 50%;
     transform: translate(-50%);
@@ -607,6 +609,7 @@ h2{
 
 .Imatge{
     background-repeat: no-repeat;
+    background-position: 0px -10px;
     -webkit-filter:grayscale(100%);
     display: block;
     width: 100%;
