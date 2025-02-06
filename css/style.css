@@ -18,6 +18,11 @@ ul li{
     font-size: 26px;
     margin: 28px 24px;
 }
+
+ul li:hover{
+    opacity: 50%;
+}
+
 nav{
     position: fixed;
     height: 90px;
@@ -141,18 +146,18 @@ h2{
 
 .activitat:hover{
     animation: 0.5s 0s rebotar linear 1;
-    color: #3a555d;
+    opacity: 75%;
 }
 
 @keyframes rebotar {
     0%{
-        transform: translateY(0px);
+        transform: translateY(0px) translateX(0px);
    }
     50%{
-        transform: translateY(17px);
+        transform: translateY(17px) translateX(0px);
    }
     100%{
-        transform: translateY(0px);
+        transform: translateY(0px) translateX(0px);
    }
 }
 
@@ -231,7 +236,8 @@ h2{
     background-image: url(../img/Ordinador.jpg);
     background-repeat: no-repeat;
     z-index: -10;
-    background-size: 110%;
+    background-position: fixed;
+    background-size: 140%;
 }
 
 .Informacio {
@@ -314,6 +320,18 @@ h2{
     width: 100%;
     height: 2930px;
    }
+
+   @keyframes rebotar {
+    0%{
+        transform: translateY(0px);
+   }
+    50%{
+        transform: translateY(17px);
+   }
+    100%{
+        transform: translateY(0px);
+   }
+}
 
 }
 
@@ -429,15 +447,27 @@ h2{
 
 @media screen and (max-width: 800px) {
     .p3 {
-        height: 1000px;
+        height: 915px;
         width: 100%;
         clear: both;
-        background-color: red;
     }
-    
-    .ImatgeContacte {
+
+    .Informacio{
+        position: relative;
+        top: 0px;
+        height: 465px;
         width: 100%;
-        height: 500px;
+        clear: both;
+        border-radius: 0px;
+        background-color: #6B929B;
+    }
+
+
+    .ImatgeContacte {
+        clear: both;
+        width: 100%;
+        height: 450px;
+        margin: 0px;
     }
     
     .p1 h1 {
@@ -473,24 +503,9 @@ h2{
     transform: translate(-50%);
    }
 
-   .ImatgeContacte {
-    scale: 100%;
-    height: 1300px;
-    }
-
     .p2 {
         height: 2730px;
         width: 100%;
-    }
-
-    .Informacio{
-        position: relative;
-        top: -900px;
-        height: 465px;
-        width: 100%;
-        clear: both;
-        border-radius: 0px;
-        background-color: #6B929B;
     }
 
     .p3 h1{
@@ -570,12 +585,12 @@ h2{
    }
 
     ul li {
-        margin: 18px 10px;
-        font-size: 12px;
+        margin: 18px 6px;
+        font-size: 14px;
    }
 
     ul {
-        padding: 4px 20px 0px 25px;
+        padding: 4px 30px 0px 30px;
    }
 
     .p1 h1 {
@@ -612,43 +627,51 @@ h2{
    }
 
    .p1 h1{
-    font-size: 44px;
+        font-size: 44px;
    }
 
    h2{
-    text-align: center;
-    line-height: 80px;
-    font-size: 30px;
-    color: white;
+        text-align: center;
+        line-height: 80px;
+        font-size: 30px;
+        color: white;
     }
 
    .activitat{
-    clear: both;
-    transform: translate(-50%);
-    display: block;
-    width: 250px;
-    height: 130px;
-    border-radius: 20px;
-    float: left;
-    text-align: center;
-    line-height: 225px;
-    color: #ffffff;
-    font-size: 10px;
-    margin: 50px 0px;
-    margin-left: 50%;
-    transform: translate(-50%);
+        clear: both;
+        transform: translate(-50%);
+        display: block;
+        width: 250px;
+        height: 130px;
+        border-radius: 20px;
+        float: left;
+        text-align: center;
+        line-height: 225px;
+        color: #ffffff;
+        font-size: 10px;
+        margin: 50px 0px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .Calendari {
+        background-size: 100%;
     }
 
     .Imatge{
-    background-repeat: no-repeat;
-    background-position: 0px -10px;
-    -webkit-filter:grayscale(100%);
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 17px;
-    clear: both;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.607);
+        background-repeat: no-repeat;
+        background-position: 0px -10px;
+        -webkit-filter:grayscale(100%);
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 17px;
+        clear: both;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.607);
+    }
+
+    .p3{
+        height: 730px;
     }
 
     .p3 h1 {
@@ -658,5 +681,14 @@ h2{
     .Icona{
         width: 350px;
        padding-left: 25px; 
+    }
+
+    .Informacio{
+        margin: 0px;
+        height: 430px;
+    }
+
+    .ImatgeContacte{
+        height: 300px;
     }
 }
